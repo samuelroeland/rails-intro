@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <div style="background: black; color:white; padding:16px">
+      <p>NAVBAR</p>
+      <div>
+        <%= link_to"Home", root_path %>
+        <%= link_to"About", about_path %>
+        <%= link_to"Contacts", contacts_path %>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
